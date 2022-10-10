@@ -27,8 +27,8 @@ public class EventListener extends ListenerAdapter {
         // This is gonna allows us to listen to the message content and respond accordingly
         String message = event.getMessage().getContentRaw();
         //event.getChannel().sendMessage(message).queue();
-        if(message.contains("ping")) {
-            event.getChannel().sendMessage("pong").queue();
+        if(message.contains("java-resource")) {
+            event.getChannel().sendMessage("https://docs.oracle.com/en/java/").queue();
         }
     }
 
