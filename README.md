@@ -4,3 +4,7 @@
 ### What it do
 - Listen to user reaction (emoji) and respond to general channel with user ```name + reaction emoji + channel name```
 - Respond to "java-resource" with java documentation link
+
+
+# Api
+<a href="https://github.com/DV8FromTheWorld/JDA">JDA</a>
